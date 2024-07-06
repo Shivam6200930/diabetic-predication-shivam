@@ -1,6 +1,4 @@
-# lab-flask
 
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
 
 
 To run flask application 
@@ -10,7 +8,19 @@ python app.py
 ```
 
 
-To access your flask application open new tab in and paste the url:
+To access your flask application open predictdata tab in and paste the url:
 ```
-https://{your_url}.pwskills.app:5000/
+https://localhost:5000/predictdata
+```
+
+In this model you input data of this or another then this model predict you have daibetics or not this given data is non-daibetics data
+```
+Pregnancies = 0
+Glucose = 90.0
+BloodPressure = 120.0
+SkinThickness = 20.0
+Insulin = 80.0
+BMI = 22.5
+DiabetesPedigreeFunction = 0.5
+Age = 30.0
 ```
